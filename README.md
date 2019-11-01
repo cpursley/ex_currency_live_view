@@ -1,5 +1,7 @@
 # ExCurrencyLiveView
 
+An Phoenix LiveView application that streaming currency exchange rates from [www.investing.com](https://www.investing.com)
+
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
@@ -8,12 +10,10 @@ To start your Phoenix server:
 
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
+To get a list of currency conversions, use the following query format:
 
-## Learn more
+```
+http://localhost:4000/?from=usd&to=rub,jpy,dkk,nzd
+```
 
-  * Official website: http://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Mailing list: http://groups.google.com/group/phoenix-talk
-  * Source: https://github.com/phoenixframework/phoenix
+Note: You might see some 406 errors. Apparently people don't like their sites getting scrapped.
