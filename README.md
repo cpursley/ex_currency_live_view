@@ -1,6 +1,6 @@
 # ExCurrencyLiveView
 
-An Phoenix LiveView application that streaming currency exchange rates from [www.investing.com](https://www.investing.com)
+An Phoenix LiveView application that streams currency exchange rates from [www.investing.com](https://www.investing.com)
 
 To start your Phoenix server:
 
