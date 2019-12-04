@@ -17,3 +17,5 @@ http://localhost:4000/?from=usd&to=rub,jpy,dkk,nzd
 ```
 
 Note: You might see some 406 errors. Apparently people don't like their sites getting scrapped.
+
+![Alt Text](ex_currency_live_view.gif)
